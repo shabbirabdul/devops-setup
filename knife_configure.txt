@@ -1,0 +1,13 @@
+knife configure -i
+Overwrite /root/.chef/knife.rb? (Y/N) (y)
+      Please enter the chef server URL: [https://test.example.com:443] (https://chef-server.example.com:443/)
+      Please enter a name for the new user: [root] (knife-user1)
+      Please enter the existing admin name: [admin] 
+      Please enter the location of the existing admin's private key: [/etc/chef-server/admin.pem] (~/.chef/admin.pem)
+      Please enter the validation clientname: [chef-validator]
+      Please enter the location of the validation key: [/etc/chef-server/chef-validator.pem] (~/.chef/chef-validator.pem)
+      Please enter the path to a chef repository (or leave blank):
+      Creating initial API user...
+      Please enter a password for the new user:
+      Created user[knife-user1]
+      Configuration file written to /root/.chef/knife.rb
