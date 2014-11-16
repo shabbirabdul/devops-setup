@@ -1,0 +1,5 @@
+knife cookbook create cookbook_name
+cd cookbooks 
+cd cookbook_name
+cd recipes
+copy default.rb from github to recipes folder
